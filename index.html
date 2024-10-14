@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Earnings AI</title>
+  <style>
+    /* Resetting default browser styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  color: #333;
+  background-color: #f9f9f9;
+}
+
+/* Navigation */
+header {
+  background-color: #4CAF50;
+  padding: 1rem 0;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1.5rem;
+}
+
+header h1 {
+  color: #fff;
+  display: inline-block;
+}
+
+nav ul {
+  list-style-type: none;
+  display: inline-block;
+  float: right;
+}
+
+nav ul li {
+  display: inline-block;
+  margin-left: 20px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav ul li a:hover {
+  text-decoration: underline;
+}
+
+/* Hero Section */
+.hero {
+  background: url('https://via.placeholder.com/1200x600') center center / cover no-repeat;
+  color: #fff;
+  text-align: center;
+  padding: 100px 0;
+}
+
+.hero h2 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+
+.hero p {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+}
+
+.btn {
+  background-color: #4CAF50;
+  color: #fff;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.btn:hover {
+  background-color: #45a049;
+}
+
+/* Sections */
+.section {
+  padding: 50px 0;
+  text-align: center;
+}
+
+.section h2 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+.section p, .section ul {
+  margin-bottom: 20px;
+}
+
+.section ul {
+  list-style-type: none;
+}
+
+.section ul li {
+  font-size: 1rem;
+}
+
+/* Form */
+form {
+  display: flex;
+  flex-direction: column;
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+form input, form textarea {
+  margin-bottom: 10px;
+  padding: 10px;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+form button {
+  padding: 10px;
+  background-color: #4CAF50;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+}
+
+form button:hover {
+  background-color: #45a049;
+}
+
+/* Footer */
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+  font-size: 0.9rem;
+}
+
+/* Mobile Styles */
+@media (max-width: 768px) {
+  nav ul {
+    display: block;
+    text-align: center;
+  }
+
+  nav ul li {
+    margin: 10px 0;
+  }
+
+  .hero h2 {
+    font-size: 2rem;
+  }
+
+  .section h2 {
+    font-size: 1.8rem;
+  }
+}
+
+  </style>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <!-- Navigation -->
+  <header>
+    <div class="container">
+      <h1>Earnings AI</h1>
+      <nav>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#referral">Referral</a></li>
+          <li><a href="#membership">Membership</a></li>
+          <li><a href="#faq">FAQ</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Home Section -->
+  <section id="home" class="hero">
+    <div class="container">
+      <h2>Welcome to Earnings AI</h2>
+      <p>Earn money by referring friends and subscribing to premium features.</p>
+      <a href="https://play.google.com" class="btn">Download App</a>
+    </div>
+  </section>
+
+  <!-- Referral Section -->
+  <section id="referral" class="section">
+    <div class="container">
+      <h2>Invite Friends, Earn Commissions</h2>
+      <p>Invite your friends to join Earnings AI and earn a commission for every successful referral.</p>
+      <a href="#" class="btn">Get Your Referral Link</a>
+    </div>
+  </section>
+
+  <!-- Membership Section -->
+  <section id="membership" class="section">
+    <div class="container">
+      <h2>Upgrade to Premium Membership</h2>
+      <p>Unlock exclusive features, ad-free browsing, and higher commission rates on referrals.</p>
+      <a href="#" class="btn">Upgrade Now</a>
+    </div>
+  </section>
+
+  <!-- FAQ Section -->
+  <section id="faq" class="section">
+    <div class="container">
+      <h2>Frequently Asked Questions</h2>
+      <ul>
+        <li>How does the referral program work?</li>
+        <li>What are the benefits of premium membership?</li>
+        <li>How can I track my earnings?</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="section">
+    <div class="container">
+      <h2>Contact Us</h2>
+      <form>
+        <input type="text" placeholder="Your Name" required>
+        <input type="email" placeholder="Your Email" required>
+        <textarea placeholder="Your Message" required></textarea>
+        <button type="submit" class="btn">Send Message</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <p>&copy; 2024 Earnings AI. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script>
+    // Smooth scroll for navigation
+document.querySelectorAll('nav a').forEach(anchor => {
+  anchor.addEventListener('click', function (e) {
+    e.preventDefault();
+    document.querySelector(this.getAttribute('href')).scrollIntoView({
+      behavior: 'smooth'
+    });
+  });
+});
+
+  </script>
+</body>
+</html>
